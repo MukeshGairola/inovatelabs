@@ -1,0 +1,46 @@
+@charset "utf-8";
+/* CSS Document */
+.reveal-modal {
+visibility: hidden;
+display: none;
+top: 100px;
+left: 50%;
+margin-left: -260px;
+width: 520px;
+position: absolute;
+z-index: 41;
+padding: 30px;
+}
+
+.reveal-modal .close-reveal-modal {
+font-size: 20px;
+line-height: .5;
+position: absolute;
+top: 25px;
+right: 11px;
+color: #fff;
+text-shadow: 0 -1px 1px rgba(0,0,0,.6);
+font-weight: 700;
+cursor: pointer;
+font-family: "Open Sans",Helvetica,Helvetica,Arial,sans-serif;
+}
+.reveal-modal h2 {
+padding: 20px 0;
+background: #1da8cd;
+color: #fff;
+text-align: center;
+}
+.reveal-modal {
+padding: 0;
+top: 75px!important;
+position: fixed;
+}
+.reveal-modal p {
+padding: 0 30px;
+}
+
+p.lead {
+font-size: 16px;
+line-height: 1.6;
+margin-bottom: 17px;
+}
